@@ -1,11 +1,33 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
 /tmp
 /out-tsc
 
-/node_modules
+# Environment
+.env
+
+# SQLite database
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-/.pnp
-.pnp.js
 
+# IDE
 .vscode/*
+.idea/*
+
+# Briefs (not for public repo)
+/.claude/brand guideline.md
+/.claude/License Server Brief.md
+/.claude/development plan.md
+/.claude/CLAUDE.MD
